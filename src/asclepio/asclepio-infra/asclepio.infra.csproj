@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DbContext\" />
-    <Folder Include="Repositories\" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
   </ItemGroup>
 
 </Project>
