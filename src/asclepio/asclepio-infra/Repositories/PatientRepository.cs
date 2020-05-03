@@ -9,15 +9,16 @@ namespace asclepio.infra.Repositories
         private IMongoDatabase _database;
         private IMongoCollection<Patient> _patientCollection;
 
-        public PatientRepository(string connectionString)
+        public PatientRepository()
         {
-            _client = new MongoClient(connectionString);
+            _client = new MongoClient("mongodb://localhost:17017");
             _database = _client.GetDatabase("local");
             _patientCollection = _database.GetCollection<Patient>("patients");
         }
         public Patient GetPatient(string idPatient)
         {
-            var filter = Builders<Patient>.Filter.Eq("_id", idPatient);
+            //fix query
+            var filter = Builders<Patient>.Filter.Eq("firstname", idPatient);
             var result = _patientCollection.Find(filter).FirstOrDefault();
             return result;
         }

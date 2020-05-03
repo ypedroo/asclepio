@@ -1,7 +1,6 @@
 ﻿using asclepio.api.Services;
 using asclepio.infra.DecisionComponent.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace asclepio.api.Controllers
 {
@@ -14,12 +13,11 @@ namespace asclepio.api.Controllers
         {
             _decisionService = decisionService;
         }
-        // GET: api/Patient/5
-        [HttpGet("{id}", Name = "Get")]
+
+        [HttpGet("{id}")]
         public Patient Get(string id)
         {
-            _decisionService.GetAnalyzedPatient(id);
-            return null;
+           return _decisionService.GetAnalyzedPatient(id);
         }
     }
 }

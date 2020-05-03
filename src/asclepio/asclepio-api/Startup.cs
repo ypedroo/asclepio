@@ -1,10 +1,11 @@
 using asclepio.api.Services;
+using asclepio.infra.DecisionComponent;
+using asclepio.infra.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
 
 namespace asclepio.api
 {
@@ -12,7 +13,11 @@ namespace asclepio.api
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IDecision, Decision>();
             services.AddTransient<IDecisionService, DecisionService>();
+            services.AddTransient<IPatientRepository, PatientRepository>();
+            services.AddControllers();
+            services.AddMvc();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -26,10 +31,7 @@ namespace asclepio.api
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
             });
         }
     }

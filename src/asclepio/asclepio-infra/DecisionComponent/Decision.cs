@@ -1,6 +1,6 @@
 ﻿using asclepio.infra.DecisionComponent.Models;
 
-namespace asclepio_infra.DecisionComponent
+namespace asclepio.infra.DecisionComponent
 {
     public class Decision : IDecision
     {

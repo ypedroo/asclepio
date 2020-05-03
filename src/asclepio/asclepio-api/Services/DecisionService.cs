@@ -1,6 +1,6 @@
 ﻿using asclepio.infra.DecisionComponent.Models;
 using asclepio.infra.Repositories;
-using asclepio_infra.DecisionComponent;
+using asclepio.infra.DecisionComponent;
 
 namespace asclepio.api.Services
 {
