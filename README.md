@@ -13,7 +13,15 @@ This POC is just an outline of how the api component would behave.
 
 # How to run
 ## Requisits 
-MongoDB instance the credentials, since its just for study purposes are foundable in the code for a local instace, i strongly recommend
+MongoDB instance's credentials, since its just for study purposes are foundable in the code for a local instace, although i strongly recommend
 use Dokcer  image for MongoDB and run the following commands:
-* docker pull mongo
-* docker run --name asclepiomongo -p 17017:27017 -d mongo
+```shell
+docker pull mongo
+docker run --name asclepiomongo -p 17017:27017 -d mongo
+```
+The next step would be run the code, on all operational systems you can use the dotnet core CLI and simple run on the porject folder
+```shell
+dotnet run 
+```
+
+and test it on the REST client of your choice.
