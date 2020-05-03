@@ -19,7 +19,7 @@ use Dokcer  image for MongoDB and run the following commands:
 docker pull mongo
 docker run --name asclepiomongo -p 17017:27017 -d mongo
 ```
-The next step would be run the code, on all operational systems you can use the dotnet core CLI and simple run on the porject folder
+The next step would be run the code, on all operational systems you can use the dotnet core CLI and simple run on the project folder
 ```shell
 dotnet run 
 ```
