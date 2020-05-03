@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asclepio", "asclepio\asclepio.csproj", "{1560EEAF-8466-4602-9A35-CD6C94BDE38D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asclepio.infra", "asclepio-infra\asclepio.infra.csproj", "{E7CFAFD2-9D9E-49F5-B164-354A6245901B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asclepio-api", "asclepio-api\asclepio-api.csproj", "{D7D71F8B-F951-479B-95A6-1CC8F0802158}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asclepio.api", "asclepio-api\asclepio.api.csproj", "{D7D71F8B-F951-479B-95A6-1CC8F0802158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1560EEAF-8466-4602-9A35-CD6C94BDE38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1560EEAF-8466-4602-9A35-CD6C94BDE38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1560EEAF-8466-4602-9A35-CD6C94BDE38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1560EEAF-8466-4602-9A35-CD6C94BDE38D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7CFAFD2-9D9E-49F5-B164-354A6245901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7CFAFD2-9D9E-49F5-B164-354A6245901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CFAFD2-9D9E-49F5-B164-354A6245901B}.Release|Any CPU.ActiveCfg = Release|Any CPU

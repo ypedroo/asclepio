@@ -1,11 +1,12 @@
-using asclepio_api.Services;
+using asclepio.api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
-namespace asclepio_api
+namespace asclepio.api
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using asclepio.infra.DecisionComponent.Models;
 using asclepio_infra.DecisionComponent;
 
-namespace asclepio_api.Services
+namespace asclepio.api.Services
 {
     public class DecisionService : IDecisionService
     {
@@ -15,6 +15,10 @@ namespace asclepio_api.Services
         public Patient GetAnalyzedPatient(Patient patient)
         {
             var analyzedPatient = _decision.Analyze(patient);
+            if (analyzedPatient.IsDizzy && analyzedPatient.AngleTilted == 0)
+            {
+                analyzedPatient.ShouldCallEmergency = true;
+            }
             return analyzedPatient;
         }
     }

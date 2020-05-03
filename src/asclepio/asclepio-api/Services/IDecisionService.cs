@@ -1,6 +1,6 @@
 ﻿using asclepio.infra.DecisionComponent.Models;
 
-namespace asclepio_api.Services
+namespace asclepio.api.Services
 {
     public interface IDecisionService
     {
