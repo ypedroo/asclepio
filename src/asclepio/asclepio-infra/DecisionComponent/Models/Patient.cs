@@ -1,4 +1,8 @@
-﻿namespace asclepio.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace asclepio.infra.DecisionComponent.Models
 {
     public class Patient
     {

@@ -41,3 +41,5 @@ C:\Dev\project-asclepio\src\asclepio\asclepio\obj\Debug\netcoreapp3.1\asclepio.c
 C:\Dev\project-asclepio\src\asclepio\asclepio\obj\Debug\netcoreapp3.1\asclepio.dll
 C:\Dev\project-asclepio\src\asclepio\asclepio\obj\Debug\netcoreapp3.1\asclepio.pdb
 C:\Dev\project-asclepio\src\asclepio\asclepio\obj\Debug\netcoreapp3.1\asclepio.genruntimeconfig.cache
+C:\Dev\project-asclepio\src\asclepio\asclepio\bin\Debug\netcoreapp3.1\asclepio.infra.dll
+C:\Dev\project-asclepio\src\asclepio\asclepio\bin\Debug\netcoreapp3.1\asclepio.infra.pdb

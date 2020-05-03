@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>asclepio.infra</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DbContext\" />
+  </ItemGroup>
+
+</Project>

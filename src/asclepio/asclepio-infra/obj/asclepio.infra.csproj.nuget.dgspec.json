@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio-infra.csproj": {}
+    "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio.infra.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio-infra.csproj": {
+    "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio.infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio-infra.csproj",
-        "projectName": "asclepio-infra",
-        "projectPath": "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio-infra.csproj",
+        "projectUniqueName": "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio.infra.csproj",
+        "projectName": "asclepio.infra",
+        "projectPath": "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\asclepio.infra.csproj",
         "packagesPath": "C:\\Users\\ynoa_mota\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\project-asclepio\\src\\asclepio\\asclepio-infra\\obj\\",
         "projectStyle": "PackageReference",

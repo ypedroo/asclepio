@@ -1,0 +1,9 @@
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\bin\Debug\netcoreapp3.1\asclepio.infra.deps.json
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\bin\Debug\netcoreapp3.1\asclepio.infra.dll
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\bin\Debug\netcoreapp3.1\asclepio.infra.pdb
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\obj\Debug\netcoreapp3.1\asclepio.infra.csprojAssemblyReference.cache
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\obj\Debug\netcoreapp3.1\asclepio.infra.csproj.CoreCompileInputs.cache
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\obj\Debug\netcoreapp3.1\asclepio.infra.AssemblyInfoInputs.cache
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\obj\Debug\netcoreapp3.1\asclepio.infra.AssemblyInfo.cs
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\obj\Debug\netcoreapp3.1\asclepio.infra.dll
+C:\Dev\project-asclepio\src\asclepio\asclepio-infra\obj\Debug\netcoreapp3.1\asclepio.infra.pdb

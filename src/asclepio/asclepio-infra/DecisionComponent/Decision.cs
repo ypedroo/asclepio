@@ -1,7 +1,4 @@
-﻿using asclepio.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using asclepio.infra.DecisionComponent.Models;
 
 namespace asclepio_infra.DecisionComponent
 {

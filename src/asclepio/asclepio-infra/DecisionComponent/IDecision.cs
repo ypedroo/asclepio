@@ -1,4 +1,4 @@
-﻿using asclepio.Models;
+﻿using asclepio.infra.DecisionComponent.Models;
 
 namespace asclepio_infra.DecisionComponent
 {
