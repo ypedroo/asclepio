@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asclepio", "asclepio\asclep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asclepio.infra", "asclepio-infra\asclepio.infra.csproj", "{E7CFAFD2-9D9E-49F5-B164-354A6245901B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asclepio-api", "asclepio-api\asclepio-api.csproj", "{D7D71F8B-F951-479B-95A6-1CC8F0802158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E7CFAFD2-9D9E-49F5-B164-354A6245901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7CFAFD2-9D9E-49F5-B164-354A6245901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7CFAFD2-9D9E-49F5-B164-354A6245901B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D71F8B-F951-479B-95A6-1CC8F0802158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D71F8B-F951-479B-95A6-1CC8F0802158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D71F8B-F951-479B-95A6-1CC8F0802158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D71F8B-F951-479B-95A6-1CC8F0802158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
